@@ -1,0 +1,17 @@
+body {
+	color: #333131;
+	text-align: center;
+  	margin: 0px;
+  	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-text {
+	margin-top: 200px;
+	text-align: left;
+}
+
+.hero-text h1{
+	font-size: 80px;
+	font-weight: 700;
+}

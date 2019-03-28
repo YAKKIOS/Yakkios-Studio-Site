@@ -1,0 +1,1074 @@
+ body {
+  background-color: ;#f9f9f9
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.hero__text p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.site-nav {
+  margin: 60px 60px 0px 135px;   /* Removes default margins from h1 element */
+  font-size: 16px;
+  z-index: 1;
+  max-width: 100%;
+  min-height: 150px;
+  font-weight: ;
+}
+
+.site-nav ul {
+  margin-top: 0;
+}
+
+.site-nav li {
+  display: inline-block; /* Makes list items go horizonally instead of vertically */
+}
+
+.site-nav a {
+	text-decoration: none;
+	color: black;
+	-webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
+}
+
+.site-title {
+  float: left;
+  list-style: none;
+  padding: 0px;
+  margin-right: 20px;
+  vertical-align: top;
+  position: fixed;
+  font-weight: bold;
+}
+
+.site-title p {
+  margin: 0px 0px 0px 40px;
+  font-size: 16px;
+  width: 60%;
+  vertical-align: top;
+
+}
+
+.nav-items {
+	list-style: none;
+  right: 0;
+  margin: 0px 135px 0px 0px;
+  position: fixed;
+  padding: inherit;
+}
+
+.nav-items a:hover {         
+  /*border-bottom: 2px solid black;*/
+  /*color: transparent;*/
+  /*text-shadow: 0 0 5px #000;*/
+  /*border-bottom: solid #1500FF 1px;*/
+  color: #1500FF;
+}
+
+.nav-items ul {
+  padding-right: 40px;
+}
+
+.nav-items li {
+    margin-left: 40px;
+    right: 0;
+}
+
+.site-nav p {
+  font-size: 18px;
+}
+
+.text {
+	padding: 100px 0px 100px 0px;
+  margin-left: 135px;
+  margin-right: 235px;
+	font-size: 26px;
+	text-align: left;
+  max-width: 80%;
+  font-weight: 400;
+  line-height: 83px;
+}
+
+.text h1 {
+   margin-top: 0px;
+  font-size: 70px;
+  color: ;
+  font-family: 'Roboto';
+  max-width: 670px
+}
+
+.text h2 {
+  font-family: sans-serif;
+  font-family: 'Neue Alte Grotesk regular';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  max-width: 470px;
+}
+
+.text a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid black;
+  font-family: 'Neue Alte Grotesk Medium';
+}
+
+.text a:hover {
+  border-bottom: 1px white;
+}
+
+.text p {
+  font-family: poppins;
+  font-size: 16px;
+  padding-top: 80px;
+}
+
+.cards {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero {
+  display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
+  margin: 0px 135px 150px 135px;
+  padding: 0px;
+  text-decoration: none; /* Removes the default underline from links */
+  color: black;
+}
+
+.hero a {
+  text-decoration: none;
+  color: black
+}
+
+.hero a:hover {
+  border-bottom: 2px black solid;
+}
+
+.herotwo {
+  margin: 0px 135px 160px 135px;
+  padding: 0px;
+  text-decoration: none; /* Removes the default underline from links */
+  color: black;
+
+}
+
+.hero__text {
+  text-align: left;
+  font-family: ;
+  display: block;
+  text-decoration: none;
+  margin: 20px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.hero__text p {
+    margin-top: 40px
+  margin-bottom: 20px;
+  color: #606060;
+}
+
+.hero__text h1 {
+  font-weight: 500;
+  font-size: 46px;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+.hero__image,
+.hero__text {
+  max-width: 100%;
+}
+
+.hero__image{
+  display: block;
+  float: left;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+
+.tag {
+  margin-top: 40px
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline;
+  color: #b1b1b1;
+  font-weight: lighter;
+}
+
+
+
+.about {
+  margin: 0px 135px 150px 235px;
+  max-width: 470px;
+  font-size: 18px;
+  text-align: left;
+  max-width: 50%;
+  padding: 0px;
+}
+
+.about a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px black solid;
+  font-weight: bold;
+}
+
+.about a:hover {
+  border-bottom: none;
+}
+
+.about h1 {
+  font-family: 'Neue Alte Grotesk Medium';
+  padding-bottom: 50px;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 62px;
+}
+
+.about h2 {
+  font-family: playfair display;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 40px 0px;
+}
+
+.about h4 {
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.about h3 {
+  font-family: playfair display;
+  font-weight: normal;
+  padding: 40px 0px 0px 0px;
+  margin: 0px 0px 80px 0px;
+  font-size: 20px;
+  width: 120%;
+  line-height: 36px;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0px 0px 40px 0px;
+  max-width: 470px;
+}
+
+.cards p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+.text a {
+  color: black;
+}
+
+.text a:hover{
+  text-decoration: none;
+}
+
+
+.div6 {
+width: 100%;
+float: left;
+padding-right: 130px;
+}
+
+.div7{
+width: 100%;
+float: left;
+text-align:left;
+margin-bottom: 300px;
+}
+
+
+footer {
+   display: block;
+   bottom: 0;
+   width:100%;
+   height: 600px;   /* Height of the footer */
+   overflow: hidden;
+   float: left;
+   padding-left: 0;
+   margin-top: 200px;
+   background-color: #f9f9f9;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer li {
+  	font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+footer li a {
+    border-bottom: 2px solid black;
+	color: black;
+}
+
+footer a:hover {
+  border-bottom: none;
+  transition: width 0s ease;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px 0px 50px 0px;
+  color: #b1b1b1;
+}
+
+.view_portfolio {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 200px;
+}
+
+.view_portfolio a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+.description {
+  margin: 0px 80px 80px 80px;
+}
+
+
+
+.content__image {
+  width: 80%;
+  margin: 0px 135px 0px 135px;
+  overflow: hidden;
+}
+
+.content_text {
+  margin: 200px 0px 200px 0px;
+}
+
+.content_text p {
+  font-family: 'Neue Alte Grotesk Medium';
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+.content_text h2 {
+  font-size: 24px;
+  margin: 150px 335px 40px 335px;
+  font-family: 'Neue Alte Grotesk Medium';
+  font-weight: normal;
+}
+
+.content_text p {
+  font-size: 16px;
+  line-height: 34px;
+  margin: 0px 335px 40px 335px;
+  max-width: 770px;
+  font-family: 'Neue Alte Grotesk Regular'
+}
+
+.full__image {
+  max-width: 100%;
+  padding: 0px 0px 140px 0px;
+}
+
+
+
+
+#body__text {
+  max-width: 50%;
+  font-size: 14px;
+  margin: 0px 0px 150px 0px;
+  line-height: 30px;
+  display: inline-block;
+  text
+}
+
+#outter{
+font-size: 16px;
+padding: 100px 135px 400px 135px;
+}
+
+
+.page_title {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.page_title h1 {
+  
+}
+
+.page_title p {
+    padding: 50px 0px 85px 135px;
+}
+
+#div1 {
+  width: 48%;
+  float: left;
+  font-size: 32px; 
+  font-weight: 500;
+  line-height: 40px;
+  padding-right: 30px;
+  font-family: 'Neue Alte Grotesk Medium';
+}
+
+#div1 p{
+    font-size: 16px;
+    color: #c6c6c6;
+    font-weight: normal;
+    font-family: 'Neue Alte Grotesk regular';
+}
+
+#div2{
+width: 48%;
+float: left;
+text-align:left;
+line-height: 34px;
+font-weight: ;
+padding-bottom: 200px;
+font-family: 'Neue Alte Grotesk regular';
+}
+
+#div2 a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Neue Alte Grotesk Medium';
+  border-bottom: 2px black solid;
+}
+
+#div2 a:hover {
+  border-bottom: none;
+}
+
+#container{
+font-size: 16px;
+margin: 200px 135px 60px 135px;
+text-decoration: none;
+}
+
+#div3 {
+width: 20%;
+float: left;
+display: inline-block;
+}
+
+
+#div4{
+width: 60%;
+text-align:Left;
+display: inline-block;
+}
+
+#div5 {
+  width: 20%;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+#div5 a {
+    border-bottom: 1px solid white;
+}
+
+#div5 a:hover {
+  border-bottom: none;
+}
+
+.about h5 {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.about__image {
+  float: right;
+  width: 50%;
+  padding-right: 135px;
+}
+
+.blocks {
+  width: 100%;
+  margin: 0px 135px 0px 135px;
+  padding: 0px;
+}
+
+.articles {
+  display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
+  margin: 0px 0px 80px 0px;
+  padding: 0px;
+  text-decoration: none; /* Removes the default underline from links */
+  color: black;
+  width: 40%;
+}
+
+.articles__text {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.articles__text p {
+  margin: 0;
+  padding: 0px;
+  font-size: 36px;
+}
+
+.articles__text h1 {
+  font-weight: normal;
+}
+
+.articles__image,
+.articles__text {
+  max-width: 100%;
+}
+
+.articles__image{
+  margin-bottom: 10px;
+  transition: .3s ease-in-out;
+}
+
+.blog__image {
+  width: 70%;
+  margin: 0px 235px 0px 235px;
+}
+
+.contact h1 {
+  font-family: playfair display;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.contact {
+  margin: 0px 135px 0px 135px;
+  font-size: 18px;
+  text-align: left;
+  max-width: 50%;
+  padding: 0px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px black solid;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.contact a:hover {
+  border-bottom: none;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0px 0px 40px 0px;
+  max-width: 470px;
+}
+
+
+.image__beta {
+  width: 80%;
+  margin: 0px 135px 0px 0px;
+}
+
+
+#outter_charlie {
+font-size: 16px;
+line-height: 34px;
+padding: 300px 235px 0px 235px;
+margin-bottom: 200px;
+}
+
+#outter_charlie h3 {
+  margin: 0px 0px 100px 0px;
+  padding: 0px;
+  font-size: 34px;
+  line-height: 58px;
+  font-weight: normal;
+  font-family: 'Neue Alte Grotesk Medium';
+  max-width: 970px;
+}
+
+#div6 {
+width: 40%;
+float: left;
+padding-right: 130px;
+}
+
+#div7{
+width: 40%;
+float: left;
+text-align:left;
+margin-bottom: 300px;
+}
+
+#outter_delta{
+font-size: 16px;
+line-height: 34px;
+padding: 150px 235px 500px 235px;
+}
+
+#outter_delta p {
+  padding-bottom: 20px;
+}
+
+#outter_delta h1 {
+  font-size: 24px;
+  padding-bottom: 50px;
+  font-weight: 500;
+}
+
+#outter_delta h2 {
+  font-size: 24px;
+  padding-bottom: 40px;
+  font-weight: 500;
+}
+
+#outter_delta h5 {
+  font-size: 16px;
+  color: grey;
+  font-weight: normal;
+}
+
+
+#div8 {
+width: 40%;
+float: left;
+padding-right: 130px;
+}
+
+
+
+#div9{
+width: 40%;
+float: left;
+text-align:left;
+}
+
+.article {
+  margin: 0px 0px 50px 0px;
+}
+
+.article_tag {
+  padding: 0px 0px 200px 235px;
+}
+
+.article_tag h1 {
+  font-family: 'Neue Alte Grotesk Medium';
+  font-size: 14px;
+  margin: 0px;
+}
+
+.article_tag p {
+  font-family: 'Neue Alte Grotesk Medium';
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+
+.article h1 {
+  font-family: 'Neue Alte Grotesk Medium';
+  max-width: 870px;
+  padding: 0px 335px 0px 235px;
+  font-size: 46px;
+  line-height: 62px;
+}
+
+.article h3 {
+  padding: 110px 235px 150px 235px;
+  margin: 0px;
+  font-size: 34px;
+  line-height: 58px;
+  font-weight: normal;
+  font-family: 'Neue Alte Grotesk Medium';
+  max-width: 970px;
+}
+
+.article h2 {
+  font-size: 24px;
+  margin: 150px 335px 40px 335px;
+  font-family: 'Neue Alte Grotesk Medium';
+  font-weight: normal;
+}
+
+.article p {
+  font-size: 16px;
+  line-height: 34px;
+  margin: 0px 335px 40px 335px;
+  max-width: 770px;
+  font-family: 'Neue Alte Grotesk Regular'
+}
+
+.article__header {
+  width: 80%;
+  margin: 0px 135px 0px 135px;
+}
+
+.image_tag {
+  padding: 0px 0px 0px 135px;
+  font-size: 14px;
+}
+
+.article__image {
+    width: 80%;
+    margin: 0px 235px 0px 235px;
+}
+
+/* Articles */
+
+.cards_beta {
+  width: 100%;
+  margin: 0px 0px 0px 135px;
+  padding: 0px;
+}
+
+.cards_beta h4 {
+  font-size: 14px;
+  color: #606060;
+  font-weight: normal;
+  margin: 50px 0px 30px 0px;
+}
+
+.cards_beta p {
+  font-size: 16px;
+  line-height: 34px;
+  margin: 10px 0px 30px 0px;
+  width: 80%;
+}
+
+.cards_beta a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.hero_beta {
+  display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  text-decoration: none; /* Removes the default underline from links */
+  color: black;
+  width: 46%;
+}
+
+
+.hero_textbeta {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;          /* Removes the default bottom margin */
+  letter-spacing: px;       /* Adds space between letters so you don't have to type them manually */
+  font-size: 24px;
+  font-weight: 500;
+  width: 50%;
+}
+
+.hero_textbeta p {
+  margin: 0;
+  padding: 0px;
+  font-size: 36px;
+}
+
+.hero_textbeta h1 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.hero_imagebeta,
+.hero_textbeta {
+  width: 100%;
+}
+
+
+.hero_2 {
+  display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
+  margin: 0px 0px 80px 0px;
+  text-decoration: none; /* Removes the default underline from links */
+  color: black;
+  width: 46%;
+  float: right;
+  /*ursor: url(view.svg) 0 6,e-resize;*/
+
+}
+
+.column_left {
+  float: left;
+  width: 45%;
+}
+
+.column_right {
+  float: left;
+  width: 45%;
+  padding-left: 130px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+    padding: 0px 135px 100px 135px;
+
+}
+
+.column_beta_left {
+  float: left;
+  width: 48%;
+  padding: 100px 15px 100px 0px;
+  display: inline-block;
+}
+
+.column_beta_right {
+  float: right;
+  width: 48%;
+  padding: 100px 0px 100px 15px;
+  display: inline-block;
+}
+
+
+/* Clear floats after image containers */
+.row_beta::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row_beta {
+    padding: 0px 135px 0px 135px;
+
+}
+
+.row_beta h1 {
+  font-weight: normal;
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+
+
+.row_beta h3 {
+  font-weight: normal;
+  margin: 0px;
+    padding: 30px 0px 20px 0px;
+  font-size: 14px;
+  color: #b1b1b1;
+  font-weight: ;
+}
+
+.row_beta p {
+  margin: 0px 0px 40px 0px;
+  font-weight: normal;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.column_link {
+  text-decoration: none;
+  color: black;
+  margin: 0px;
+  font-weight: normal;
+  padding: 0px 0px 2px 0px;
+  font-size: 16px;
+  border-bottom: 1.5px solid black;
+}
+
+.column_link:hover {
+  border-bottom: none;
+}
+
+
+
+#wrapper {
+  max-width: 1170px;
+  margin: 60px 135px 200px 135px;
+}
+
+#outer {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.itemwrapper_left {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.itemwrapper_right {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 100px;
+}
+
+#wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+#wrapper-50 {
+  max-width: 1170px;
+  margin: 60px 135px 200px 135px;
+}
+
+#outer {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.itemwrapper-50_left {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.itemwrapper-50_right {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 30px;
+}
+
+#wrapper-50 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page_tag {
+  font-weight: normal;
+  padding: 200px 0px 0px 135px;
+}
+
+.page_tag h1 {
+  font-size: 24px;
+  
+}
+
+.page_tag p {
+    padding: 0px 0px 20px 0px;
+}
+
+.padding-block {
+	height: 150px;
+}
+
+
+@media only screen and (max-width: 940px) {
+
+    .hero {
+        margin: 0px 60px 100px 60px;
+
+    } 
+
+    #outter_charlie {
+	font-size: 16px;
+	line-height: 34px;
+	padding: 300px 135px 0px 135px;
+	margin-bottom: 200px;
+	}
+
+	#div6, #div8, #div9 {
+	font-size: 16px;
+	line-height: 34px;
+	padding: px 135px 0px 135px;
+	margin-bottom: 200px;
+	width: 100%;
+	}
+
+	#about {
+		margin: 0px 135px 0px 135px;
+	}
+
+
+@media only screen and (max-width: 760px) {
+
+    body {
+    }
+
+    p {
+        font-size: 16px;
+
+    }
+
+    #about {
+		margin: 0px 135px 0px 135px;
+	}
+
+	#outter_charlie {
+	font-size: 16px;
+	line-height: 34px;
+	padding: 300px 135px 0px 135px;
+	margin-bottom: 200px;
+	}
+    .text {
+      line-height: 30px;
+    }
+
+    .hero__text{
+      font-size: 16px;
+    }
+
+    .about {
+      padding-top: 150px;
+      font-size: 16px;
+    }
+
+    .nav-items {
+      float: right;
+      display: block;
+      width: 20%;
+      margin: 0px, 0px, 0px, 10px;
+      text-align: right;
+    }
+}
+}
+
+
+
