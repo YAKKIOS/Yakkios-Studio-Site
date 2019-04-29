@@ -34,7 +34,7 @@ h1 {
 }
 
 .site-nav {
-  margin: 60px 60px 0px 135px;   /* Removes default margins from h1 element */
+  margin: 60px 60px 0px 10%;   /* Removes default margins from h1 element */
   font-size: 16px;
   z-index: 1;
   max-width: 100%;
@@ -81,7 +81,7 @@ h1 {
 .nav-items {
 	list-style: none;
   right: 0;
-  margin: 0px 135px 0px 0px;
+  margin: 0px 10% 0px 0px;
   position: fixed;
   padding: inherit;
 }
@@ -109,8 +109,8 @@ h1 {
 
 .text {
 	padding: 100px 0px 100px 0px;
-  margin-left: 135px;
-  margin-right: 235px;
+  margin-left: 20%;
+  margin-right: 20%;
 	font-size: 26px;
 	text-align: left;
   max-width: 80%;
@@ -230,7 +230,7 @@ h1 {
 
 
 .about {
-  margin: 0px 135px 150px 235px;
+  margin: 0px 20% 150px 20%;
   max-width: 470px;
   font-size: 18px;
   text-align: left;
@@ -238,16 +238,21 @@ h1 {
   padding: 0px;
 }
 
-.about a{
+.about a {
   text-decoration: none;
   color: black;
-  border-bottom: 1px black solid;
   font-weight: bold;
+}
+
+.about li {
+  display: inline-block;
+  padding-right: 60px;
 }
 
 .about a:hover {
   border-bottom: none;
 }
+
 
 .about h1 {
   font-family: 'Neue Alte Grotesk Medium';
@@ -646,7 +651,7 @@ display: inline-block;
 #outter_charlie {
 font-size: 16px;
 line-height: 34px;
-padding: 300px 235px 0px 235px;
+padding: 300px 20% 0px 20%;
 margin-bottom: 200px;
 }
 
@@ -1040,7 +1045,7 @@ text-align:left;
     #outter_charlie {
 	font-size: 16px;
 	line-height: 34px;
-	padding: 300px 135px 0px 135px;
+	padding: 300px 10% 0px 10%;
 	margin-bottom: 200px;
 	}
 
