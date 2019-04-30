@@ -241,7 +241,6 @@ h1 {
 .about a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
 }
 
 .about li {
@@ -263,9 +262,8 @@ h1 {
 }
 
 .about h2 {
-  font-family: playfair display;
   font-size: 26px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 40px 0px;
 }
