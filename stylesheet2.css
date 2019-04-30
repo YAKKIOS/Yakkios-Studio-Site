@@ -122,13 +122,10 @@ h1 {
    margin-top: 0px;
   font-size: 70px;
   color: ;
-  font-family: 'Roboto';
   max-width: 670px
 }
 
 .text h2 {
-  font-family: sans-serif;
-  font-family: 'Neue Alte Grotesk regular';
   font-weight: normal;
   font-size: 16px;
   line-height: 29px;
@@ -139,7 +136,6 @@ h1 {
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom: 1.5px solid black;
-  font-family: 'Neue Alte Grotesk Medium';
 }
 
 .text a:hover {
@@ -147,7 +143,6 @@ h1 {
 }
 
 .text p {
-  font-family: poppins;
   font-size: 16px;
   padding-top: 80px;
 }
@@ -185,7 +180,6 @@ h1 {
 
 .hero__text {
   text-align: left;
-  font-family: ;
   display: block;
   text-decoration: none;
   margin: 20px 0px 0px 0px;
@@ -254,7 +248,6 @@ h1 {
 
 
 .about h1 {
-  font-family: 'Neue Alte Grotesk Medium';
   padding-bottom: 50px;
   font-weight: 500;
   font-size: 46px;
@@ -269,12 +262,10 @@ h1 {
 }
 
 .about h4 {
-  font-family: poppins;
   font-size: 14px;
 }
 
 .about h3 {
-  font-family: playfair display;
   font-weight: normal;
   padding: 40px 0px 0px 0px;
   margin: 0px 0px 80px 0px;
@@ -390,14 +381,12 @@ footer p {
 }
 
 .content_text p {
-  font-family: 'Neue Alte Grotesk Medium';
   font-size: 14px;
   margin: 10px 0px 0px 0px;
 }
 .content_text h2 {
   font-size: 24px;
   margin: 150px 335px 40px 335px;
-  font-family: 'Neue Alte Grotesk Medium';
   font-weight: normal;
 }
 
@@ -406,7 +395,6 @@ footer p {
   line-height: 34px;
   margin: 0px 335px 40px 335px;
   max-width: 770px;
-  font-family: 'Neue Alte Grotesk Regular'
 }
 
 @media only screen and (max-width: 1200px) {
@@ -482,14 +470,12 @@ padding: 100px 135px 400px 135px;
   font-weight: 500;
   line-height: 40px;
   padding-right: 30px;
-  font-family: 'Neue Alte Grotesk Medium';
 }
 
 #div1 p{
     font-size: 16px;
     color: #c6c6c6;
     font-weight: normal;
-    font-family: 'Neue Alte Grotesk regular';
 }
 
 #div2{
@@ -499,13 +485,11 @@ text-align:left;
 line-height: 34px;
 font-weight: ;
 padding-bottom: 200px;
-font-family: 'Neue Alte Grotesk regular';
 }
 
 #div2 a {
   text-decoration: none;
   color: black;
-  font-family: 'Neue Alte Grotesk Medium';
   border-bottom: 2px black solid;
 }
 
@@ -606,7 +590,6 @@ display: inline-block;
 }
 
 .contact h1 {
-  font-family: playfair display;
   padding-bottom: 30px;
   font-weight: bold;
   font-size: 56px;
@@ -659,7 +642,6 @@ margin-bottom: 200px;
   font-size: 34px;
   line-height: 58px;
   font-weight: normal;
-  font-family: 'Neue Alte Grotesk Medium';
   max-width: 970px;
 }
 
@@ -730,19 +712,16 @@ text-align:left;
 }
 
 .article_tag h1 {
-  font-family: 'Neue Alte Grotesk Medium';
   font-size: 14px;
   margin: 0px;
 }
 
 .article_tag p {
-  font-family: 'Neue Alte Grotesk Medium';
   font-size: 14px;
   margin: 10px 0px 0px 0px;
 }
 
 .article h1 {
-  font-family: 'Neue Alte Grotesk Medium';
   max-width: 870px;
   padding: 0px 335px 0px 235px;
   font-size: 46px;
@@ -755,14 +734,12 @@ text-align:left;
   font-size: 34px;
   line-height: 58px;
   font-weight: normal;
-  font-family: 'Neue Alte Grotesk Medium';
   max-width: 970px;
 }
 
 .article h2 {
   font-size: 24px;
   margin: 150px 335px 40px 335px;
-  font-family: 'Neue Alte Grotesk Medium';
   font-weight: normal;
 }
 
@@ -771,7 +748,6 @@ text-align:left;
   line-height: 34px;
   margin: 0px 335px 40px 335px;
   max-width: 770px;
-  font-family: 'Neue Alte Grotesk Regular'
 }
 
 .article__header {
