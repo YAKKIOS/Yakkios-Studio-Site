@@ -661,7 +661,7 @@ margin-bottom: 300px;
 #outter_delta{
 font-size: 16px;
 line-height: 34px;
-padding: 150px 235px 500px 235px;
+padding: 150px 20% 500px 20%;
 }
 
 #outter_delta p {
@@ -1028,14 +1028,31 @@ text-align:left;
 	#div6, #div8, #div9 {
 	font-size: 16px;
 	line-height: 34px;
-	padding: px 135px 0px 135px;
-	margin-bottom: 200px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 50px;
 	width: 100%;
 	}
+
+  #div7 {
+    padding-bottom: 00px;
+    width: 100%;
+  }
 
 	#about {
 		margin: 0px 135px 0px 135px;
 	}
+
+  #outer {
+    position: absolute;
+  }
+
+  #itemwrapper_left {
+    position: relative;
+  }
+
+   #itemwrapper_right {
+    
+   }
 
 
 @media only screen and (max-width: 760px) {
