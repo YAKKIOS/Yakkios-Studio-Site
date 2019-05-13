@@ -34,12 +34,11 @@ h1 {
 }
 
 .site-nav {
-  margin: 60px 60px 0px 10%;   /* Removes default margins from h1 element */
+  margin: 60px 10% 0px 10%;   /* Removes default margins from h1 element */
   font-size: 16px;
   z-index: 1;
   max-width: 100%;
   min-height: 150px;
-  font-weight: ;
 }
 
 .site-nav ul {
@@ -52,12 +51,7 @@ h1 {
 
 .site-nav a {
 	text-decoration: none;
-	color: black;
-	-webkit-transition: color 0.3s ease-out;
- -moz-transition: color 0.3s ease-out;
- -o-transition: color 0.3s ease-out;
- -ms-transition: color 0.3s ease-out;
- transition: color 0.3s ease-out;
+  color: black;
 }
 
 .site-title {
@@ -87,11 +81,12 @@ h1 {
 }
 
 .nav-items a:hover {         
-  /*border-bottom: 2px solid black;*/
-  /*color: transparent;*/
-  /*text-shadow: 0 0 5px #000;*/
-  /*border-bottom: solid #1500FF 1px;*/
   color: #1500FF;
+  -webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
 }
 
 .nav-items ul {
@@ -114,22 +109,20 @@ h1 {
 	font-size: 26px;
 	text-align: left;
   max-width: 80%;
-  font-weight: 400;
-  line-height: 83px;
+  line-height: 63px;
 }
 
 .text h1 {
    margin-top: 0px;
-  font-size: 70px;
-  color: ;
-  max-width: 670px
+  font-size: 50px;
+  max-width: 770px
 }
 
 .text h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 29px;
-  max-width: 470px;
+  max-width: 770px
 }
 
 .text a {
@@ -335,13 +328,17 @@ footer li {
 }
 
 footer li a {
-    border-bottom: 2px solid black;
 	color: black;
 }
 
 footer a:hover {
   border-bottom: none;
-  transition: width 0s ease;
+  color: #1500FF;
+  -webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
 }
 
 footer p {
@@ -524,7 +521,7 @@ display: inline-block;
 }
 
 #div5 a {
-    border-bottom: 1px solid white;
+  color: #1500FF;
 }
 
 #div5 a:hover {
@@ -1010,6 +1007,29 @@ text-align:left;
 	height: 150px;
 }
 
+@media only screen and (max-width: 1100px) {
+
+    #outter_charlie {
+  font-size: 16px;
+  line-height: 34px;
+  padding: 300px 20% 0px 20%;
+  margin-bottom: 200px;
+  }
+
+  #div6, #div8, #div9 {
+  font-size: 16px;
+  line-height: 34px;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 50px;
+  width: 100%;
+  }
+
+  #div7 {
+    padding-bottom: 00px;
+    width: 100%;
+  }
+}
+
 
 @media only screen and (max-width: 940px) {
 
@@ -1018,11 +1038,10 @@ text-align:left;
 
     } 
 
-    #outter_charlie {
+  #outter_charlie, #outter_delta {
 	font-size: 16px;
 	line-height: 34px;
-	padding: 300px 10% 0px 10%;
-	margin-bottom: 200px;
+	padding: 200px 10% 200px 10%;
 	}
 
 	#div6, #div8, #div9 {
@@ -1037,10 +1056,6 @@ text-align:left;
     padding-bottom: 00px;
     width: 100%;
   }
-
-	#about {
-		margin: 0px 135px 0px 135px;
-	}
 
   #outer {
     position: absolute;
@@ -1065,16 +1080,12 @@ text-align:left;
 
     }
 
-    #about {
-		margin: 0px 135px 0px 135px;
-	}
+  .about {
+    margin: 100px 10% 100px 10%;
+    max-width: 80%;
+  }
 
-	#outter_charlie {
-	font-size: 16px;
-	line-height: 34px;
-	padding: 300px 135px 0px 135px;
-	margin-bottom: 200px;
-	}
+
     .text {
       line-height: 30px;
     }
@@ -1083,10 +1094,6 @@ text-align:left;
       font-size: 16px;
     }
 
-    .about {
-      padding-top: 150px;
-      font-size: 16px;
-    }
 
     .nav-items {
       float: right;
