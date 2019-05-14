@@ -237,6 +237,12 @@ h1 {
 
 .about a:hover {
   border-bottom: none;
+  color: #1500FF;
+  -webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
 }
 
 
@@ -248,7 +254,7 @@ h1 {
 }
 
 .about h2 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: normal;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 40px 0px;
@@ -286,6 +292,7 @@ h1 {
 
 .text a:hover{
   text-decoration: none;
+
 }
 
 
@@ -633,10 +640,10 @@ margin-bottom: 200px;
 }
 
 #outter_charlie h3 {
-  margin: 0px 0px 100px 0px;
+  margin: 0px 0px 80px 0px;
   padding: 0px;
-  font-size: 34px;
-  line-height: 58px;
+  font-size: 28px;
+  line-height: 48px;
   font-weight: normal;
   max-width: 970px;
 }
