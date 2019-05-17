@@ -648,6 +648,11 @@ margin-bottom: 200px;
   max-width: 970px;
 }
 
+#outter_charlie h3 a {
+  text-decoration: none;
+  color: black;
+}
+
 #div6 {
 width: 40%;
 float: left;
@@ -1027,11 +1032,19 @@ text-align:left;
   margin-bottom: 200px;
   }
 
-  #div6, #div8, #div9 {
+  #div6, #div8 {
   font-size: 16px;
   line-height: 34px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 50px;
+  width: 100%;
+  }
+
+  #div9 {
+  font-size: 16px;
+  line-height: 34px;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 200px;
   width: 100%;
   }
 
