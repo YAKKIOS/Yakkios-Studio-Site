@@ -34,7 +34,7 @@ h1 {
 }
 
 .site-nav {
-  margin: 60px 10% 0px 10%;   /* Removes default margins from h1 element */
+  margin: 60px 5% 0px 5%;   /* Removes default margins from h1 element */
   font-size: 16px;
   z-index: 1;
   max-width: 100%;
@@ -75,7 +75,7 @@ h1 {
 .nav-items {
 	list-style: none;
   right: 0;
-  margin: 0px 10% 0px 0px;
+  margin: 0px 5% 0px 0px;
   position: fixed;
   padding: inherit;
 }
@@ -148,7 +148,7 @@ h1 {
 
 .hero {
   display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
-  margin: 0px 135px 150px 135px;
+  margin: 0px 10% 150px 10%;
   padding: 0px;
   text-decoration: none; /* Removes the default underline from links */
   color: black;
@@ -211,10 +211,8 @@ h1 {
   text-decoration: none;
   display: inline;
   color: #b1b1b1;
-  font-weight: lighter;
+
 }
-
-
 
 .about {
   margin: 0px 20% 150px 20%;
@@ -901,7 +899,7 @@ text-align:left;
 }
 
 .row_beta {
-    padding: 0px 135px 0px 135px;
+    padding: 0px 10% 0px 10%;
 
 }
 
@@ -1025,7 +1023,7 @@ text-align:left;
 
 @media only screen and (max-width: 1100px) {
 
-    #outter_charlie {
+  #outter_charlie {
   font-size: 16px;
   line-height: 34px;
   padding: 300px 20% 0px 20%;
@@ -1058,7 +1056,7 @@ text-align:left;
 @media only screen and (max-width: 940px) {
 
     .hero {
-        margin: 0px 60px 100px 60px;
+        margin: 0px 5% 100px 5%;
 
     } 
 
@@ -1081,7 +1079,18 @@ text-align:left;
     width: 100%;
   }
 
+  .column_beta_right, .column_beta_left{
+    width: 100%;
+  }
 
+  .itemwrapper_left {
+  display: table;
+  width: 100%;
+  }
+
+  .itemwrapper_right {
+  display: none;
+  }
 
 @media only screen and (max-width: 760px) {
 
