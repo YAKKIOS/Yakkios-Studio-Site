@@ -128,9 +128,10 @@ h1 {
 }
 
 .text a {
+  margin-right: 60px;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1px solid black;
 }
 
 .text a:hover {
@@ -138,7 +139,7 @@ h1 {
 }
 
 .text p {
-  font-size: 16px;
+  font-size: 22px;
   padding-top: 80px;
 }
 
