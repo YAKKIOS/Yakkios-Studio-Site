@@ -117,7 +117,7 @@ h1 {
   font-size: 50px;
   max-width: 770px;
   color: 0023FF;
-  font-weight: lighter;
+  /*font-weight: lighter;*/
 }
 
 .text h2 {
@@ -128,9 +128,10 @@ h1 {
 }
 
 .text a {
+  margin-right: 60px;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1px solid black;
 }
 
 .text a:hover {
@@ -138,7 +139,7 @@ h1 {
 }
 
 .text p {
-  font-size: 16px;
+  font-size: 22px;
   padding-top: 80px;
 }
 
@@ -251,6 +252,7 @@ h1 {
   font-weight: 500;
   font-size: 46px;
   line-height: 62px;
+  /*font-weight: lighter;*/
 }
 
 .about h2 {
@@ -644,7 +646,7 @@ margin-bottom: 200px;
   padding: 0px;
   font-size: 28px;
   line-height: 48px;
-  font-weight: normal;
+  font-weight: lighter;
   max-width: 970px;
 }
 
