@@ -116,7 +116,8 @@ h1 {
    margin-top: 0px;
   font-size: 50px;
   max-width: 770px;
-  color: #0023FF;
+  color: 0023FF;
+  font-weight: lighter;
 }
 
 .text h2 {
