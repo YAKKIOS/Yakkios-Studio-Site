@@ -5,25 +5,6 @@
   font-family: 'NeueAlteGrotesk', sans-serif;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-
 .hero__text p {
   margin: 0;
   padding: 0;
@@ -104,8 +85,8 @@ h1 {
 }
 
 .text {
-	padding: 150px 0px 150px 0px;
-  margin-left: 10%;
+	padding: 200px 0px 200px 0px;
+  margin-left: 5%;
   margin-right: 20%;
 	font-size: 26px;
 	text-align: left;
@@ -180,7 +161,7 @@ h1 {
   display: block;
   text-decoration: none;
   margin: 20px 0px 0px 0px;
-  font-weight: 500;
+  font-weight: lighter;
 }
 
 .hero__text p {
@@ -219,7 +200,7 @@ h1 {
 }
 
 .about {
-  margin: 50px 10% 200px 10%;
+  margin: 50px 20% 200px 20%;
   max-width: 470px;
   font-size: 18px;
   text-align: left;
@@ -656,9 +637,12 @@ margin-bottom: 200px;
   max-width: 970px;
 }
 
-#outter_charlie h3 a {
+#outter_charlie a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  border-bottom: 1px;
+  border-color: black;
 }
 
 #div6 {
@@ -1017,12 +1001,12 @@ text-align:left;
 }
 
 .page_tag {
-  font-weight: normal;
   padding: 200px 0px 0px 135px;
 }
 
 .page_tag h1 {
   font-size: 24px;
+  font-weight: lighter;
   
 }
 
