@@ -78,6 +78,7 @@ h1 {
   margin: 0px 5% 0px 0px;
   position: fixed;
   padding: inherit;
+  font-weight: 400;
 }
 
 .nav-items a:hover {         
@@ -103,19 +104,19 @@ h1 {
 }
 
 .text {
-	padding: 100px 0px 100px 0px;
-  margin-left: 20%;
+	padding: 150px 0px 150px 0px;
+  margin-left: 10%;
   margin-right: 20%;
 	font-size: 26px;
 	text-align: left;
   max-width: 80%;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 .text h1 {
    margin-top: 0px;
-  font-size: 50px;
-  max-width: 770px;
+  font-size: 44px;
+  max-width: 670px;
   color: 0023FF;
   font-weight: lighter;
 }
@@ -139,7 +140,7 @@ h1 {
 }
 
 .text p {
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 80px;
 }
 
@@ -218,7 +219,7 @@ h1 {
 }
 
 .about {
-  margin: 50px 20% 200px 20%;
+  margin: 50px 10% 200px 10%;
   max-width: 470px;
   font-size: 18px;
   text-align: left;
@@ -250,7 +251,7 @@ h1 {
 .about h1 {
   padding-bottom: 50px;
   font-weight: 500;
-  font-size: 46px;
+  font-size: 42px;
   line-height: 62px;
   font-weight: lighter;
 }
@@ -515,10 +516,14 @@ float: left;
 display: inline-block;
 }
 
+#div3 li {
+  font-size: 20px;
+}
+
 
 #div4{
 width: 60%;
-text-align:Left;
+text-align: Left;
 display: inline-block;
 }
 
@@ -660,6 +665,7 @@ margin-bottom: 200px;
 width: 40%;
 float: left;
 padding-right: 130px;
+color: #5a5c63;
 }
 
 #div7{
@@ -667,6 +673,7 @@ width: 40%;
 float: left;
 text-align:left;
 margin-bottom: 300px;
+color: #5a5c63;
 }
 
 #outter_delta{
@@ -683,7 +690,7 @@ padding: 150px 20% 500px 20%;
 #outter_delta h1 {
   font-size: 24px;
   padding-bottom: 50px;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 #outter_delta h2 {
@@ -913,6 +920,7 @@ text-align:left;
   padding: 0px 0px 20px 0px;
   margin: 0px;
   font-size: 24px;
+  font-weight: lighter;
 }
 
 
