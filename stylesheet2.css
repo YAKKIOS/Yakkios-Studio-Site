@@ -624,8 +624,7 @@ display: inline-block;
 #outter_charlie {
 font-size: 16px;
 line-height: 34px;
-padding: 300px 20% 0px 20%;
-margin-bottom: 200px;
+padding: 300px 20% 300px 20%;
 }
 
 #outter_charlie h3 {
