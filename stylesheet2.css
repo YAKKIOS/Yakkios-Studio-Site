@@ -15,7 +15,7 @@ h1 {
 }
 
 .site-nav {
-  margin: 50px 5% 0px 5%;   /* Removes default margins from h1 element */
+  margin: 50px 10% 0px 10%;   /* Removes default margins from h1 element */
   font-size: 16px;
   z-index: 1;
   max-width: 100%;
@@ -56,7 +56,7 @@ h1 {
 .nav-items {
 	list-style: none;
   right: 0;
-  margin: 0px 5% 0px 0px;
+  margin: 0px 10% 0px 0px;
   position: fixed;
   padding: inherit;
   font-weight: 400;
@@ -86,7 +86,7 @@ h1 {
 
 .text {
 	padding: 200px 0px 200px 0px;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 20%;
 	font-size: 26px;
 	text-align: left;
@@ -99,7 +99,7 @@ h1 {
   font-size: 44px;
   max-width: 670px;
   color: 0023FF;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .text h2 {
@@ -133,7 +133,7 @@ h1 {
 
 .hero {
   display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
-  margin: 0px 10% 150px 10%;
+  margin: 100px 10% 50px 10%;
   padding: 0px;
   text-decoration: none; /* Removes the default underline from links */
   color: black;
@@ -200,7 +200,7 @@ h1 {
 }
 
 .about {
-  margin: 50px 20% 200px 20%;
+  margin: 100px 20% 200px 20%;
   max-width: 470px;
   font-size: 18px;
   text-align: left;
@@ -234,7 +234,7 @@ h1 {
   font-weight: 500;
   font-size: 42px;
   line-height: 62px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .about h2 {
@@ -360,7 +360,7 @@ footer p {
 
 .content__image {
   width: 80%;
-  margin: 0px 135px 0px 135px;
+  margin: 0px 10% 0px 10%;
   overflow: hidden;
 }
 
