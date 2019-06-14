@@ -309,7 +309,8 @@ footer {
 .Footer_CTA {
   width: 80%;
   margin-left: 10%;
-  align: center;
+  align-content: center;
+  text-align: center;
 }
 
 .Footer_CTA h1 {
@@ -496,42 +497,43 @@ padding-bottom: 200px;
 }
 
 #container{
+width: 80%
 font-size: 16px;
-margin: 200px 135px 60px 135px;
+margin: 200px 10% 60px 10%;
 text-decoration: none;
 }
 
-#div3 {
+#container_div3 {
 width: 20%;
 float: left;
 display: inline-block;
 }
 
-#div3 li {
-  font-size: 20px;
-}
 
-
-#div4{
-width: 60%;
+#container_div4{
+width: 20%;
 text-align: Left;
 display: inline-block;
 }
 
-#div5 {
+#container_div5 {
   width: 20%;
   display: inline-block;
-  float: right;
-  text-align: right;
 }
 
-#div5 a {
+#container_div5 a {
   color: #1500FF;
 }
 
-#div5 a:hover {
+#container_div5 a:hover {
   border-bottom: none;
 }
+
+#container_div6 {
+  display: inline-block;
+  width: 20%;
+}
+
 
 .about h5 {
   font-size: 14px;
