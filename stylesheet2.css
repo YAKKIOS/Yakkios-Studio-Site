@@ -1,5 +1,5 @@
  body {
-  background-color: ;#f9f9f9
+  background-color: #FFFCF8;
   padding: 0px;
   margin: 0px;
   font-family: 'NeueAlteGrotesk', sans-serif;
@@ -303,7 +303,17 @@ footer {
    float: left;
    padding-left: 0;
    margin-top: 200px;
-   background-color: #f9f9f9;
+   background-color: ;#f9f9f9
+}
+
+.Footer_CTA {
+  width: 80%;
+  margin-left: 10%;
+  align: center;
+}
+
+.Footer_CTA h1 {
+    font-size: 42px;
 }
 
 footer a {
@@ -632,7 +642,7 @@ padding: 300px 20% 300px 20%;
   padding: 0px;
   font-size: 28px;
   line-height: 48px;
-  font-weight: lighter;
+  font-weight: normal;
   max-width: 970px;
 }
 
