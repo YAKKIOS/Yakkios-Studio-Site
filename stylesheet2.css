@@ -41,7 +41,7 @@ h1 {
   padding: 0px;
   margin-right: 20px;
   vertical-align: top;
-  position: fixed;
+  /*position: fixed;*/
   font-weight: bold;
 }
 
@@ -56,8 +56,9 @@ h1 {
 .nav-items {
 	list-style: none;
   right: 0;
-  margin: 0px 10% 0px 0px;
-  position: fixed;
+  margin: 0px 0 0px 0px;
+  float: right;
+  /*position: fixed;*/
   padding: inherit;
   font-weight: 400;
 }
@@ -161,7 +162,7 @@ h1 {
   display: block;
   text-decoration: none;
   margin: 20px 0px 0px 0px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .hero__text p {
@@ -200,8 +201,7 @@ h1 {
 }
 
 .about {
-  margin: 100px 20% 200px 20%;
-  max-width: 470px;
+  margin: 100px 10% 200px 10%;
   font-size: 18px;
   text-align: left;
   max-width: 50%;
@@ -637,11 +637,11 @@ display: inline-block;
 #outter_charlie {
 font-size: 16px;
 line-height: 34px;
-padding: 300px 20% 300px 20%;
+padding: 200px 10% 0px 10%;
 }
 
 #outter_charlie h3 {
-  margin: 0px 0px 80px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px;
   font-size: 28px;
   line-height: 48px;
@@ -675,7 +675,7 @@ color: #5a5c63;
 #outter_delta{
 font-size: 16px;
 line-height: 34px;
-padding: 150px 20% 500px 20%;
+padding: 150px 10% 500px 10%;
 }
 
 #outter_delta p {
@@ -686,7 +686,7 @@ padding: 150px 20% 500px 20%;
 #outter_delta h1 {
   font-size: 24px;
   padding-bottom: 50px;
-  font-weight: 200;
+  font-weight: normal;
 }
 
 #outter_delta h2 {
@@ -1035,8 +1035,8 @@ text-align:left;
   #outter_charlie {
   font-size: 16px;
   line-height: 34px;
-  padding: 300px 20% 0px 20%;
-  margin-bottom: 200px;
+  padding: 200px 20% 0px 10%;
+  margin-bottom: 0px;
   }
 
   #div6, #div8 {
@@ -1044,7 +1044,7 @@ text-align:left;
   line-height: 34px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 50px;
-  width: 100%;
+  width: 80%;
   }
 
   #div9 {
@@ -1052,7 +1052,7 @@ text-align:left;
   line-height: 34px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
-  width: 100%;
+  width: 80%;
   }
 
   #div7 {
@@ -1069,19 +1069,33 @@ text-align:left;
 
     } 
 
-  #outter_charlie, #outter_delta {
+  #outter_charlie {
 	font-size: 16px;
 	line-height: 34px;
-	padding: 200px 10% 200px 10%;
+	padding: 200px 10% 0px 10%;
 	}
 
-	#div6, #div8, #div9 {
+  #outter_delta {
+  font-size: 16px;
+  line-height: 34px;
+  padding: 200px 10% 0px 10%;
+  }
+
+	#div6, #div8 {
 	font-size: 16px;
 	line-height: 34px;
 	padding: 0px 0px 0px 0px;
 	margin-bottom: 50px;
 	width: 100%;
 	}
+
+  #div9 {
+  ont-size: 16px;
+  line-height: 34px;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 200px;
+  width: 100%;
+  }
 
   #div7 {
     padding-bottom: 00px;
@@ -1136,5 +1150,8 @@ text-align:left;
 }
 }
 
+#padding_block_200 {
+  min-height: 200px;
+}
 
 
