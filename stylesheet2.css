@@ -210,7 +210,7 @@ h1 {
 
 .about a {
   text-decoration: none;
-  color: black;
+  color: #737373;
 }
 
 .about li {
@@ -317,13 +317,13 @@ footer {
 }
 
 .Footer_CTA h1 {
-    font-size: 34px;
-    line-height: 60px;
+    font-size: 28px;
+    line-height: 48px;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: #737373;
 }
 
 footer li {
@@ -522,13 +522,10 @@ display: inline-block;
 
 #container_div5 {
   width: 30%;
-  display: inline-block;
   float: right;
   text-align: right;
-}
-
-#container_div5 a {
-  color: #1500FF;
+  bottom: 0;
+  position: relative;
 }
 
 #container_div5 a:hover {
@@ -689,7 +686,7 @@ padding: 150px 10% 500px 10%;
 }
 
 #outter_delta h1 {
-  font-size: 24px;
+  font-size: 28px;
   padding-bottom: 50px;
   font-weight: normal;
 }
