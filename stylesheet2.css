@@ -1,5 +1,5 @@
  body {
-  background-color: #FFFCF8;
+  background-color: #FFFCFB;
   padding: 0px;
   margin: 0px;
   font-family: 'NeueAlteGrotesk', sans-serif;
@@ -302,22 +302,23 @@ footer {
    overflow: hidden;
    float: left;
    padding-left: 0;
-   margin-top: 200px;
-   background-color: #f8f7f38;
-   border-top: 1px solid;
-   border-color: rgb(204,204,204)
-   background-color: black;
+   margin-top: 100px;
+   border: 1px solid;
+   border-color: #E3E3E3;
+   background-color: #;
+   color: black;
 }
 
 .Footer_CTA {
   width: 80%;
-  margin: 200px 10% 200px 10%;
-  align-content: center;
-  text-align: center;
+  margin: 150px 10% 150px 10%;
+  align-content: left;
+  text-align: left;
 }
 
 .Footer_CTA h1 {
-    font-size: 42px;
+    font-size: 34px;
+    line-height: 60px;
 }
 
 footer a {
@@ -326,7 +327,7 @@ footer a {
 }
 
 footer li {
-  	font-size: 18px;
+  	font-size: 16px;
     text-decoration: none;
     margin-bottom: 20px;
     list-style: none;
@@ -390,7 +391,7 @@ footer p {
 .content_text h2 {
   font-size: 22px;
   margin: 150px 0px 40px 0px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .content_text p {
@@ -471,7 +472,7 @@ padding: 100px 135px 400px 135px;
   font-weight: 500;
   line-height: 40px;
   padding-right: 30px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 #div1 p{
@@ -507,14 +508,14 @@ text-decoration: none;
 }
 
 #container_div3 {
-width: 30%;
+width: 20%;
 float: left;
 display: inline-block;
 }
 
 
 #container_div4{
-width: 30%;
+width: 20%;
 text-align: Left;
 display: inline-block;
 }
@@ -522,6 +523,8 @@ display: inline-block;
 #container_div5 {
   width: 30%;
   display: inline-block;
+  float: right;
+  text-align: right;
 }
 
 #container_div5 a {
