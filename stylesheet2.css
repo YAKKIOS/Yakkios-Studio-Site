@@ -114,16 +114,23 @@ h1 {
   margin-right: 60px;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 1px solid black;
+  /*border-bottom: 1px solid black;*/
+  color: #737373;
 }
 
 .text a:hover {
-  border-bottom: 1px white;
+    color: #1500FF;
+  -webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
 }
 
 .text p {
-  font-size: 24px;
+  font-size: 28px;
   padding-top: 80px;
+  color: #737373;
 }
 
 .cards {
@@ -272,9 +279,6 @@ h1 {
   font-weight: normal;
 }
 
-.text a {
-  color: black;
-}
 
 .text a:hover{
   text-decoration: none;
@@ -303,7 +307,7 @@ footer {
    overflow: hidden;
    float: left;
    padding-left: 0;
-   margin-top: 100px;
+   margin-top: 150px;
    border: 1px solid;
    border-color: #E3E3E3;
    background-color: #;
@@ -1163,6 +1167,11 @@ text-align:left;
       width: 20%;
       margin: 0px, 0px, 0px, 10px;
       text-align: right;
+    }
+
+    .text a {
+      width: 100%;
+      margin-right: 200px;
     }
 }
 }
