@@ -159,7 +159,7 @@ h1 {
 
 .hero__text {
   text-align: left;
-  font-size: 24px;
+  font-size: 28px;
   display: block;
   text-decoration: none;
   margin: 20px 0px 0px 0px;
@@ -174,7 +174,7 @@ h1 {
 
 .hero__text h1 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 28px;
   max-width: 50%;
   text-decoration: none;
 }
@@ -468,7 +468,7 @@ padding: 100px 135px 400px 135px;
 #div1 {
   width: 48%;
   float: left;
-  font-size: 32px; 
+  font-size: 28px; 
   font-weight: 500;
   line-height: 40px;
   padding-right: 30px;
@@ -646,7 +646,7 @@ padding: 200px 10% 0px 10%;
   margin: 0px 0px 0px 0px;
   padding: 0px;
   font-size: 28px;
-  line-height: 48px;
+  line-height: 58px;
   font-weight: normal;
   max-width: px;
 }
