@@ -1,7 +1,7 @@
  body {
   background-color: #FFFCFB;
   padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
   font-family: 'NeueAlteGrotesk', sans-serif;
 }
 
@@ -436,6 +436,11 @@ footer p {
     margin-top: 25px;
     margin-bottom: 25px;
   }
+
+  .body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 .full__image {
@@ -454,7 +459,7 @@ footer p {
 
 #outter{
 font-size: 16px;
-padding: 100px 135px 400px 135px;
+padding: 100px 10% 400px 10%;
 }
 
 
@@ -727,6 +732,7 @@ text-align:left;
 
 .article {
   margin: 0px 0px 50px 0px;
+  align-content: center;
 }
 
 .article_tag {
