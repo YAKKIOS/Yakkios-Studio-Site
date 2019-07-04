@@ -141,7 +141,7 @@ h1 {
 
 .hero {
   display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
-  margin: 100px 10% 50px 10%;
+  margin: 100px 10% 100px 10%;
   padding: 0px;
   text-decoration: none; /* Removes the default underline from links */
   color: black;
@@ -385,7 +385,7 @@ footer p {
 }
 
 .content_text {
-  margin: 300px 30% 300px 30%;
+  margin: 300px 20% 300px 20%;
 }
 
 .content_text p {
@@ -393,7 +393,9 @@ footer p {
   margin: 10px 0px 0px 0px;
 }
 .content_text h2 {
-  font-size: 22px;
+  max-width: 770px;
+  font-size: 24px;
+  line-height: 58px;
   margin: 150px 0px 40px 0px;
   font-weight: normal;
 }
@@ -429,7 +431,7 @@ footer p {
   }
 
   .content_text .article__header {
-    max-width: 80%;
+    max-width: 770px;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -681,7 +683,7 @@ color: #5a5c63;
 #outter_delta{
 font-size: 16px;
 line-height: 34px;
-padding: 150px 10% 500px 10%;
+padding: 200px 10% 500px 10%;
 }
 
 #outter_delta p {
@@ -768,13 +770,8 @@ text-align:left;
 .article p {
   font-size: 16px;
   line-height: 34px;
-  margin: 0px 20% 40px 20%;
+  margin: 0px 25% 40px 25%;
   max-width: 770px;
-}
-
-.article__header {
-  width: 80%;
-  margin: 0px 135px 0px 135px;
 }
 
 .image_tag {
@@ -1171,7 +1168,6 @@ text-align:left;
 
     .text a {
       width: 100%;
-      margin-right: 200px;
     }
 }
 }
