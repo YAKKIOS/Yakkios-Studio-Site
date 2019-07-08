@@ -776,7 +776,7 @@ text-align:left;
 .article p {
   font-size: 16px;
   line-height: 34px;
-  margin: 0px 25% 40px 25%;
+  margin: 0px 20% 40px 20%;
   max-width: 770px;
 }
 
@@ -1064,7 +1064,7 @@ text-align:left;
   line-height: 34px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
-  width: 80%;
+  width: 100%;
   }
 
   #div7 {
@@ -1102,7 +1102,7 @@ text-align:left;
 	}
 
   #div9 {
-  ont-size: 16px;
+  font-size: 16px;
   line-height: 34px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
