@@ -652,7 +652,7 @@ display: inline-block;
 #outter_charlie {
 font-size: 16px;
 line-height: 34px;
-padding: 200px 10% 0px 10%;
+padding: 250px 10% 0px 10%;
 }
 
 #outter_charlie h3 {
@@ -1182,6 +1182,10 @@ text-align:left;
 
 #padding_block_200 {
   min-height: 200px;
+}
+
+#padding_block_250 {
+  min-height: 250px;
 }
 
 #padding_block_100 {
