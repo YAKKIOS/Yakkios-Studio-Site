@@ -310,7 +310,7 @@ footer {
    float: left;
    padding-left: 0;
    margin-top: 150px;
-   border-top: 1px solid;
+   /*border-top: 1px solid;
    border-color: #E3E3E3;
    background-color: #;
    color: black;
@@ -1193,5 +1193,9 @@ text-align:left;
 
 #padding_block_100 {
   min-height: 100px;
+}
+
+#service_tags {
+  padding-top: 100px;
 }
 
