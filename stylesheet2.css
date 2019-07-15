@@ -94,12 +94,12 @@ h1 {
 	font-size: 26px;
 	text-align: left;
   max-width: 80%;
-  line-height: 86px;
+  line-height: 68px;
 }
 
 .text h1 {
    margin-top: 0px;
-  font-size:54px;
+  font-size: 46px;
   max-width: 870px;
   color: 0023FF;
   font-weight: normal;
@@ -143,7 +143,7 @@ h1 {
 
 .hero {
   display: inline-block;        /* Creates a block level element (ie one that can have a width/height, margins etc) */
-  margin: 100px 5% 100px 5%;
+  margin: 50px 5% 100px 5%;
   padding: 0px;
   text-decoration: none; /* Removes the default underline from links */
   color: black;
@@ -214,7 +214,7 @@ h1 {
   margin: 50px 5% 200px 5%;
   font-size: 18px;
   text-align: left;
-  max-width: 70%;
+  max-width: 60%;
   padding: 0px;
 }
 
@@ -242,8 +242,8 @@ h1 {
 .about h1 {
   padding-bottom: 50px;
   font-weight: 500;
-  font-size: 54px;
-  line-height: 86px;
+  font-size: 46px;
+  line-height: 68px;
   font-weight: normal;
   /*max-width: 770px;*/
 }
@@ -318,7 +318,7 @@ footer {
 
 .Footer_CTA {
   width: 80%;
-  margin: 150px 10% 150px 10%;
+  margin: 150px 5% 150px 5%;
   align-content: left;
   text-align: left;
 }
@@ -461,7 +461,7 @@ footer p {
 
 #outter{
 font-size: 16px;
-padding: 100px 5% 400px 5%;
+padding: 50px 5% 0px 5%;
 }
 
 
@@ -516,7 +516,7 @@ padding-bottom: 200px;
 #container{
 width: 80%
 font-size: 18px;
-margin: 100px 10% 50px 10%;
+margin: 100px 5% 50px 5%;
 text-decoration: none;
 }
 
@@ -652,7 +652,8 @@ display: inline-block;
 #outter_charlie {
 font-size: 16px;
 line-height: 34px;
-padding: 250px 10% 0px 10%;
+padding: 200px 5% 0px 5%;
+max-width: 60%;
 }
 
 #outter_charlie h3 {
@@ -690,7 +691,7 @@ color: #5a5c63;
 #outter_delta{
 font-size: 16px;
 line-height: 34px;
-padding: 200px 10% 500px 10%;
+padding: 200px 5% 500px 5%;
 }
 
 #outter_delta p {
@@ -920,7 +921,7 @@ text-align:left;
 }
 
 .row_beta {
-    padding: 0px 10% 0px 10%;
+    padding: 0px 5% 0px 5%;
 
 }
 
@@ -967,8 +968,7 @@ text-align:left;
 
 
 #wrapper {
-  max-width: 1170px;
-  margin: 60px 10% 200px 10%;
+  margin: 60px 5% 200px 5%;
 }
 
 #outer {
@@ -997,7 +997,6 @@ text-align:left;
 }
 
 #wrapper-50 {
-  max-width: 1170px;
   margin: 60px 135px 200px 135px;
 }
 
@@ -1182,6 +1181,10 @@ text-align:left;
 
 #padding_block_200 {
   min-height: 200px;
+}
+
+#padding_block_50 {
+  min-height: 50px;
 }
 
 #padding_block_250 {
