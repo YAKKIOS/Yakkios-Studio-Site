@@ -311,7 +311,7 @@ footer {
    padding-left: 0;
    margin-top: 150px;
    /*border-top: 1px solid;
-   border-color: #E3E3E3;
+   border-color: #E3E3E3;*/
    background-color: #;
    color: black;
 }
@@ -516,7 +516,7 @@ padding-bottom: 200px;
 #container{
 width: 80%
 font-size: 18px;
-margin: 100px 5% 50px 5%;
+margin: 100px 5% 100px 5%;
 text-decoration: none;
 }
 
@@ -1195,7 +1195,11 @@ text-align:left;
   min-height: 100px;
 }
 
-#service_tags {
-  padding-top: 100px;
+.service_tags {
+  padding: 100px 0px 0px 5%;
 }
 
+.service_tags h1 {
+ font-size: 24px;
+ padding-bottom: 40px;
+}
