@@ -11,11 +11,11 @@
   src: url(39BD6E_4_0.woff);
 }
 
-@font-face {
+/*@font-face {
   font-family: NeueAlteGrotesk;
   src: url(39BD6E_3_0.woff);
   font-weight: lighter;
-}
+}*/
 
 .content_container {
     max-width: 1400px;
