@@ -60,6 +60,7 @@ h1 {
   vertical-align: top;
   /*position: fixed;*/
   font-weight: bold;
+  font-size: 18px;
 }
 
 .site-title p {
@@ -81,7 +82,7 @@ h1 {
 }
 
 .nav-items a:hover {         
-  color: #1500FF;
+  color: #737373;
   -webkit-transition: color 0.3s ease-out;
  -moz-transition: color 0.3s ease-out;
  -o-transition: color 0.3s ease-out;
@@ -170,7 +171,7 @@ h1 {
 }
 
 .hero a:hover {
-  border-bottom: 2px black solid;
+  text-decoration: underline;
 }
 
 .herotwo {
@@ -226,11 +227,12 @@ h1 {
 }
 
 .about {
-  margin: 50px 5% 200px 5%;
+  margin: 50px 5% 100px 5%;
   font-size: 18px;
   text-align: left;
   max-width: 60%;
   padding: 0px;
+    text-decoration: none;
 }
 
 .about a {
@@ -244,8 +246,7 @@ h1 {
 }
 
 .about a:hover {
-  border-bottom: none;
-  color: #1500FF;
+  text-decoration: underline;
   -webkit-transition: color 0.3s ease-out;
  -moz-transition: color 0.3s ease-out;
  -o-transition: color 0.3s ease-out;
@@ -259,6 +260,7 @@ h1 {
   font-size: 46px;
   line-height: 68px;
   font-weight: lighter;
+    text-decoration: none;
 }
 
 .about h2 {
@@ -325,7 +327,7 @@ footer {
    margin-top: 150px;
    border-top: 1px solid;
    border-color: #E3E3E3;
-   background-color: black;
+   background-color: #20201F;
    color: white;
 }
 
@@ -360,8 +362,7 @@ footer li a {
 }
 
 footer a:hover {
-  border-bottom: none;
-  color: #1500FF;
+  text-decoration: underline;
   -webkit-transition: color 0.3s ease-out;
  -moz-transition: color 0.3s ease-out;
  -o-transition: color 0.3s ease-out;
@@ -405,10 +406,7 @@ footer p {
   margin: 300px 20% 300px 20%;
 }
 
-.content_text p {
-  font-size: 16px;
-  margin: 10px 0px 0px 0px;
-}
+
 .content_text h2 {
   max-width: 770px;
   font-size: 24px;
@@ -554,6 +552,9 @@ display: inline-block;
   text-align: right;
   bottom: 0;
   position: relative;
+  text-align: bottom;
+  vertical-align: bottom;
+  vertical-align: text-bottom;
 }
 
 #container_div5 a:hover {
@@ -675,7 +676,7 @@ max-width: 60%;
   margin: 0px 0px 0px 0px;
   padding: 0px;
   font-size: 28px;
-  line-height: 58px;
+  line-height: 68px;
   font-weight: normal;
   max-width: px;
 }
@@ -706,7 +707,7 @@ color: #5a5c63;
 #outter_delta{
 font-size: 16px;
 line-height: 34px;
-padding: 200px 5% 500px 5%;
+padding: 200px 5% 0px 5%;
 }
 
 #outter_delta p {
@@ -729,7 +730,7 @@ padding: 200px 5% 500px 5%;
 
 #outter_delta h5 {
   font-size: 16px;
-  color: #1e1e1e;
+  color: #737373;
   font-weight: normal;
 }
 
@@ -746,6 +747,7 @@ padding-right: 130px;
 width: 42%;
 float: right;
 text-align:left;
+padding-bottom: 100px;
 }
 
 .article {
@@ -1211,10 +1213,16 @@ text-align:left;
 }
 
 .service_tags {
-  padding: 100px 0px 0px 5%;
+  padding: 100px 0px 100px 5%;
 }
 
 .service_tags h1 {
  font-size: 24px;
  padding-bottom: 40px;
 }
+
+.service_tags p {
+ padding-bottom: 20px;
+}
+
+
