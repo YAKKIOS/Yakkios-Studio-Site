@@ -33,7 +33,7 @@ h1 {
 
 .site-nav {
   margin: 50px 5% 0px 5%;   /* Removes default margins from h1 element */
-  font-size: 16px;
+  font-size: 18px;
   z-index: 1;
   max-width: 100%;
   min-height: 150px;
@@ -65,7 +65,7 @@ h1 {
 
 .site-title p {
   margin: 0px 0px 0px 40px;
-  font-size: 16px;
+  font-size: 18px;
   width: 60%;
   vertical-align: top;
 
@@ -123,7 +123,7 @@ h1 {
 
 .text h2 {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 29px;
   max-width: 770px
 }
@@ -175,7 +175,7 @@ h1 {
 }
 
 .herotwo {
-  margin: 0px 135px 160px 135px;
+  margin: 0px 135px 180px 135px;
   padding: 0px;
   text-decoration: none; /* Removes the default underline from links */
   color: black;
@@ -219,7 +219,7 @@ h1 {
 .tag {
   margin-top: 40px
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   display: inline;
   color: #b1b1b1;
@@ -351,7 +351,7 @@ footer a {
 }
 
 footer li {
-  	font-size: 16px;
+  	font-size: 18px;
     text-decoration: none;
     margin-bottom: 20px;
     list-style: none;
@@ -371,7 +371,7 @@ footer a:hover {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   padding: 0px;
   margin: 0px 0px 50px 0px;
@@ -381,7 +381,7 @@ footer p {
 .view_portfolio {
   color: black;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 200px;
 }
 
@@ -416,8 +416,8 @@ footer p {
 }
 
 .content_text p {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   margin: 0px 0px 40px 0px;
   max-width: 770px;
 }
@@ -473,14 +473,14 @@ footer p {
 }
 
 #outter{
-font-size: 16px;
+font-size: 18px;
 padding: 50px 5% 0px 5%;
 }
 
 
 .page_title {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .page_title h1 {
@@ -502,7 +502,7 @@ padding: 50px 5% 0px 5%;
 }
 
 #div1 p{
-    font-size: 16px;
+    font-size: 18px;
     color: #c6c6c6;
     font-weight: normal;
 }
@@ -511,7 +511,7 @@ padding: 50px 5% 0px 5%;
 width: 48%;
 float: left;
 text-align:left;
-line-height: 34px;
+line-height: 38px;
 font-weight: ;
 padding-bottom: 200px;
 }
@@ -597,7 +597,7 @@ display: inline-block;
   text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .articles__text p {
@@ -666,8 +666,8 @@ display: inline-block;
 
 
 #outter_charlie {
-font-size: 16px;
-line-height: 34px;
+font-size: 18px;
+line-height: 38px;
 padding: 200px 5% 0px 5%;
 max-width: 60%;
 }
@@ -705,8 +705,8 @@ color: #5a5c63;
 }
 
 #outter_delta{
-font-size: 16px;
-line-height: 34px;
+font-size: 18px;
+line-height: 38px;
 padding: 200px 5% 0px 5%;
 }
 
@@ -729,7 +729,7 @@ padding: 200px 5% 0px 5%;
 }
 
 #outter_delta h5 {
-  font-size: 16px;
+  font-size: 18px;
   color: #737373;
   font-weight: normal;
 }
@@ -779,7 +779,7 @@ padding-bottom: 100px;
 .article h3 {
   padding: 110px 235px 150px 235px;
   margin: 0px;
-  font-size: 34px;
+  font-size: 38px;
   line-height: 58px;
   font-weight: normal;
   max-width: 970px;
@@ -794,15 +794,16 @@ padding-bottom: 100px;
 }
 
 .article p {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   margin: 0px 20% 40px 20%;
   max-width: 770px;
 }
 
 .image_tag {
-  padding: 0px 0px 0px 10%;
-  font-size: 14px;
+  padding: 0px 0px 0px 5%;
+  font-size: 16px;
+  color: #737373;
 }
 
 .article__image {
@@ -826,8 +827,8 @@ padding-bottom: 100px;
 }
 
 .cards_beta p {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   margin: 10px 0px 30px 0px;
   width: 80%;
 }
@@ -956,7 +957,7 @@ padding-bottom: 100px;
   font-weight: normal;
   margin: 0px;
     padding: 30px 0px 20px 0px;
-  font-size: 14px;
+  font-size: 18px;
   color: #b1b1b1;
   font-weight: ;
 }
@@ -965,7 +966,7 @@ padding-bottom: 100px;
   margin: 0px 0px 40px 0px;
   font-weight: normal;
   padding: 0px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .column_link {
@@ -974,7 +975,7 @@ padding-bottom: 100px;
   margin: 0px;
   font-weight: normal;
   padding: 0px 0px 2px 0px;
-  font-size: 16px;
+  font-size: 18px;
   border-bottom: 1.5px solid black;
 }
 
@@ -1063,23 +1064,23 @@ padding-bottom: 100px;
 @media only screen and (max-width: 1100px) {
 
   #outter_charlie {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   padding: 200px 5% 0px 5%;
   margin-bottom: 0px;
   }
 
   #div6, #div8 {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 50px;
   width: 100%;
   }
 
   #div9 {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
   width: 100%;
@@ -1105,29 +1106,29 @@ padding-bottom: 100px;
   }
 
   #outter_charlie {
-	font-size: 16px;
-	line-height: 34px;
+	font-size: 18px;
+	line-height: 38px;
 	padding: 200px 5% 0px 5%;
   max-width: 100%;
 	}
 
   #outter_delta {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   padding: 200px 5% 0px 5%;
   }
 
 	#div6, #div8 {
-	font-size: 16px;
-	line-height: 34px;
+	font-size: 18px;
+	line-height: 38px;
 	padding: 0px 0px 0px 0px;
 	margin-bottom: 50px;
 	width: 100%;
 	}
 
   #div9 {
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
   width: 100%;
@@ -1152,15 +1153,15 @@ padding-bottom: 100px;
   }
 
   .article p {
-  font-size: 16px;
-  line-height: 34px;
-  margin: 0px 10% 40px 10%;
+  font-size: 18px;
+  line-height: 38px;
+  margin: 0px 5% 40px 5%;
   max-width: 770px;
 }
 
 .article h2 {
   font-size: 24px;
-  margin: 150px 10% 40px 10%;
+  margin: 150px 5% 40px 5%;
   font-weight: normal;
   align-content: center;
 }
@@ -1172,7 +1173,7 @@ padding-bottom: 100px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
@@ -1184,7 +1185,7 @@ padding-bottom: 100px;
 
 
     .hero__text{
-      font-size: 16px;
+      font-size: 18px;
     }
 
 
