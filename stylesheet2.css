@@ -4,18 +4,21 @@
   margin: 0 auto;
   font-family: 'NeueAlteGrotesk', sans-serif;
   float: none;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: NeueAlteGrotesk;
   src: url(39BD6E_4_0.woff);
+  font-weight: normal;
 }
 
-/*@font-face {
+@font-face {
   font-family: NeueAlteGrotesk;
-  src: url(39BD6E_3_0.woff);
-  font-weight: lighter;
-}*/
+  src: url(39BD6E_6_0.woff;)
+  font-weight: bold;
+}
+
 
 .content_container {
     max-width: 1400px;
@@ -33,7 +36,7 @@ h1 {
 
 .site-nav {
   margin: 50px 5% 0px 5%;   /* Removes default margins from h1 element */
-  font-size: 18px;
+  font-size: 16px;
   z-index: 1;
   max-width: 100%;
   min-height: 150px;
@@ -60,12 +63,12 @@ h1 {
   vertical-align: top;
   /*position: fixed;*/
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .site-title p {
   margin: 0px 0px 0px 40px;
-  font-size: 18px;
+  font-size: 16px;
   width: 60%;
   vertical-align: top;
 
@@ -100,7 +103,7 @@ h1 {
 }
 
 .site-nav p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text {
@@ -123,7 +126,7 @@ h1 {
 
 .text h2 {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 29px;
   max-width: 770px
 }
@@ -175,7 +178,7 @@ h1 {
 }
 
 .herotwo {
-  margin: 0px 135px 180px 135px;
+  margin: 0px 135px 160px 135px;
   padding: 0px;
   text-decoration: none; /* Removes the default underline from links */
   color: black;
@@ -219,7 +222,7 @@ h1 {
 .tag {
   margin-top: 40px
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   display: inline;
   color: #b1b1b1;
@@ -228,7 +231,7 @@ h1 {
 
 .about {
   margin: 50px 5% 100px 5%;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   max-width: 60%;
   padding: 0px;
@@ -326,8 +329,8 @@ footer {
    padding-left: 0;
    margin-top: 150px;
    border-top: 1px solid;
-   border-color: #E3E3E3;
-   background-color: #20201F;
+   border-color: #1D1D1D;
+   background-color: #141414;
    color: white;
 }
 
@@ -351,7 +354,7 @@ footer a {
 }
 
 footer li {
-  	font-size: 18px;
+  	font-size: 16px;
     text-decoration: none;
     margin-bottom: 20px;
     list-style: none;
@@ -371,7 +374,7 @@ footer a:hover {
 }
 
 footer p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   padding: 0px;
   margin: 0px 0px 50px 0px;
@@ -381,7 +384,7 @@ footer p {
 .view_portfolio {
   color: black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 200px;
 }
 
@@ -416,7 +419,7 @@ footer p {
 }
 
 .content_text p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   margin: 0px 0px 40px 0px;
   max-width: 770px;
@@ -473,14 +476,14 @@ footer p {
 }
 
 #outter{
-font-size: 18px;
+font-size: 16px;
 padding: 50px 5% 0px 5%;
 }
 
 
 .page_title {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .page_title h1 {
@@ -502,7 +505,7 @@ padding: 50px 5% 0px 5%;
 }
 
 #div1 p{
-    font-size: 18px;
+    font-size: 16px;
     color: #c6c6c6;
     font-weight: normal;
 }
@@ -528,7 +531,7 @@ padding-bottom: 200px;
 
 #container{
 width: 80%
-font-size: 18px;
+font-size: 16px;
 margin: 100px 5% 100px 5%;
 text-decoration: none;
 }
@@ -597,7 +600,7 @@ display: inline-block;
   text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .articles__text p {
@@ -633,7 +636,7 @@ display: inline-block;
 
 .contact {
   margin: 0px 135px 0px 135px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   max-width: 50%;
   padding: 0px;
@@ -666,7 +669,7 @@ display: inline-block;
 
 
 #outter_charlie {
-font-size: 18px;
+font-size: 16px;
 line-height: 38px;
 padding: 200px 5% 0px 5%;
 max-width: 60%;
@@ -684,7 +687,7 @@ max-width: 60%;
 #outter_charlie a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: 1px;
   border-color: black;
 }
@@ -705,7 +708,7 @@ color: #5a5c63;
 }
 
 #outter_delta{
-font-size: 18px;
+font-size: 16px;
 line-height: 38px;
 padding: 200px 5% 0px 5%;
 }
@@ -729,7 +732,7 @@ padding: 200px 5% 0px 5%;
 }
 
 #outter_delta h5 {
-  font-size: 18px;
+  font-size: 16px;
   color: #737373;
   font-weight: normal;
 }
@@ -794,7 +797,7 @@ padding-bottom: 100px;
 }
 
 .article p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   margin: 0px 20% 40px 20%;
   max-width: 770px;
@@ -827,7 +830,7 @@ padding-bottom: 100px;
 }
 
 .cards_beta p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   margin: 10px 0px 30px 0px;
   width: 80%;
@@ -957,7 +960,7 @@ padding-bottom: 100px;
   font-weight: normal;
   margin: 0px;
     padding: 30px 0px 20px 0px;
-  font-size: 18px;
+  font-size: 16px;
   color: #b1b1b1;
   font-weight: ;
 }
@@ -966,7 +969,7 @@ padding-bottom: 100px;
   margin: 0px 0px 40px 0px;
   font-weight: normal;
   padding: 0px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .column_link {
@@ -975,7 +978,7 @@ padding-bottom: 100px;
   margin: 0px;
   font-weight: normal;
   padding: 0px 0px 2px 0px;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: 1.5px solid black;
 }
 
@@ -1064,14 +1067,15 @@ padding-bottom: 100px;
 @media only screen and (max-width: 1100px) {
 
   #outter_charlie {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   padding: 200px 5% 0px 5%;
   margin-bottom: 0px;
+  max-width: 100%;
   }
 
   #div6, #div8 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 50px;
@@ -1079,7 +1083,7 @@ padding-bottom: 100px;
   }
 
   #div9 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
@@ -1106,20 +1110,20 @@ padding-bottom: 100px;
   }
 
   #outter_charlie {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 38px;
 	padding: 200px 5% 0px 5%;
   max-width: 100%;
 	}
 
   #outter_delta {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   padding: 200px 5% 0px 5%;
   }
 
 	#div6, #div8 {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 38px;
 	padding: 0px 0px 0px 0px;
 	margin-bottom: 50px;
@@ -1127,10 +1131,10 @@ padding-bottom: 100px;
 	}
 
   #div9 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   padding: 0px 0px 0px 0px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   width: 100%;
   }
 
@@ -1153,7 +1157,7 @@ padding-bottom: 100px;
   }
 
   .article p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 38px;
   margin: 0px 5% 40px 5%;
   max-width: 770px;
@@ -1173,7 +1177,7 @@ padding-bottom: 100px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
 
     }
 
@@ -1185,7 +1189,7 @@ padding-bottom: 100px;
 
 
     .hero__text{
-      font-size: 18px;
+      font-size: 16px;
     }
 
 
