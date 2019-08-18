@@ -112,15 +112,15 @@ h1 {
   margin-right: 25%;
 	font-size: 26px;
 	text-align: left;
-  max-width: 60%;
+  max-width: 45%;
   line-height: 68px;
-  font-family: NeueAlteGrotesk;
+  font-family: neuealtegrotesk;
 }
 
 .text h1 {
    margin-top: 0px;
-  font-size: 46px;
-  line-height: 72px;
+  font-size: 72px;
+  line-height: 100px;
   color: 0023FF;
   font-weight: normal;
 }
@@ -710,7 +710,7 @@ color: #5a5c63;
 
 #outter_delta{
 font-size: 16px;
-line-height: 38px;
+line-height: 36px;
 padding: 200px 5% 0px 5%;
 }
 
