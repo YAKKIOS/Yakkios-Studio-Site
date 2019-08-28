@@ -1,3 +1,14 @@
+$(document).ready(function(){
+
+/*! Fades in page on load */
+$('body').css('display', 'none');
+$('body').fadeIn(1000);
+
+});
+
+
+
+
 $(document).ready(function() {
     
     /* Every time the window is scrolled ... */
@@ -21,5 +32,3 @@ $(document).ready(function() {
     });
     
 });
-
-
