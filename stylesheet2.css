@@ -115,7 +115,7 @@ h1 {
   margin-right: 25%;
 	font-size: 26px;
 	text-align: left;
-  max-width: 45%;
+  max-width: 80%;
   font-family: neuealtegrotesk;
 }
 
@@ -1191,7 +1191,10 @@ padding-bottom: 100px;
     max-width: 100%;
   }
 
-
+  .text h1 {
+        font-size: 46px;
+    line-height: 68px;
+  }
 
     .hero__text h1 {
       font-size: 24px;
