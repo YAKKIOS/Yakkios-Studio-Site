@@ -2,7 +2,7 @@
   background-color: #FFFCFB;
   padding: 0px;
   margin: 0 auto;
-  font-family: 'NeueAlteGrotesk', sans-serif;
+  font-family: 'hkgrotesk-regular', sans-serif;
   float: none;
   font-weight: normal;
 }
@@ -14,10 +14,22 @@
 }
 
 @font-face {
-  font-family: NeueAlteGrotesk;
-  src: url(39BD6E_7_0.woff;)
-  font-weight: bold;
+  font-family: HKGrotesk;
+  src: url(hkgrotesk-regular.woff;)
+  font-weight: normal;
 }
+
+@font-face {
+  font-family: HKGrotesk;
+  src: url(hkgrotesk-light.woff;)
+  font-weight: lighter;
+}
+
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -65,8 +77,7 @@ h1 {
   margin-right: 20px;
   vertical-align: top;
   /*position: fixed;*/
-  font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .site-title p {
@@ -84,7 +95,6 @@ h1 {
   float: right;
   /*position: fixed;*/
   padding: inherit;
-  font-weight: 400;
 }
 
 .nav-items a:hover {         
@@ -110,28 +120,29 @@ h1 {
 }
 
 .text {
-	padding: 50px 0px 200px 0px;
+	padding: 50px 0px 300px 0px;
   margin-left: 5%;
-  margin-right: 25%;
+  margin-right: 5%;
 	font-size: 26px;
 	text-align: left;
-  max-width: 80%;
-  font-family: neuealtegrotesk;
+  font-weight: lighter;
 }
 
 .text h1 {
    margin-top: 0px;
-  font-size: 72px;
-  line-height: 100px;
+  font-size: 74px;
+  line-height: 86px;
   color: 0023FF;
   font-weight: normal;
+    max-width: 80%;
 }
 
 .text h2 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 29px;
-  max-width: 770px
+  font-size: 36px;
+  max-width: 770px;
+  font-weight:lighter;
+  float: right;
+  max-width: 80%;
 }
 
 .text a {
@@ -152,10 +163,13 @@ h1 {
 }
 
 .text p {
-  font-size: 16px;
+  font-size: 28px;
+  max-width: 100%;
   padding: 80px 0px 0px 0px;
   margin: 0px;
-  color: #737373;
+  float: left;
+  line-height: 38px;
+  display: block;
 }
 
 .cards {
@@ -713,13 +727,13 @@ color: #5a5c63;
 
 #outter_delta{
 font-size: 16px;
-line-height: 36px;
 padding: 200px 5% 0px 5%;
 }
 
 #outter_delta p {
   padding-bottom: 20px;
   margin: 0px;
+  line-height: 26px;
 }
 
 #outter_delta h1 {
