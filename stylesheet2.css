@@ -51,7 +51,7 @@ h1 {
 
 .site-nav {
   margin: 50px 5% 0px 5%;   /* Removes default margins from h1 element */
-  font-size: 16px;
+  font-size: 18px;
   z-index: 1;
   max-width: 100%;
   min-height: 150px;
@@ -82,7 +82,7 @@ h1 {
 
 .site-title p {
   margin: 0px 0px 0px 40px;
-  font-size: 16px;
+  font-size: 18px;
   width: 60%;
   vertical-align: top;
 
@@ -116,7 +116,7 @@ h1 {
 }
 
 .site-nav p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .text {
@@ -239,7 +239,7 @@ h1 {
 .tag {
   margin-top: 40px
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   display: inline;
   color: #b1b1b1;
@@ -248,7 +248,7 @@ h1 {
 
 .about {
   margin: 50px 5% 100px 5%;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   max-width: 60%;
   padding: 0px;
@@ -371,7 +371,7 @@ footer a {
 }
 
 footer li {
-  	font-size: 16px;
+  	font-size: 18px;
     text-decoration: none;
     margin-bottom: 20px;
     list-style: none;
@@ -391,7 +391,7 @@ footer a:hover {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   padding: 0px;
   margin: 0px 0px 50px 0px;
@@ -401,7 +401,7 @@ footer p {
 .view_portfolio {
   color: black;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 200px;
 }
 
@@ -436,8 +436,8 @@ footer p {
 }
 
 .content_text p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 32px;
   margin: 0px 0px 40px 0px;
   max-width: 770px;
 }
@@ -493,14 +493,14 @@ footer p {
 }
 
 #outter{
-font-size: 16px;
+font-size: 18px;
 padding: 50px 5% 0px 5%;
 }
 
 
 .page_title {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .page_title h1 {
@@ -522,7 +522,7 @@ padding: 50px 5% 0px 5%;
 }
 
 #div1 p{
-    font-size: 16px;
+    font-size: 18px;
     color: #c6c6c6;
     font-weight: normal;
 }
@@ -548,7 +548,7 @@ padding-bottom: 200px;
 
 #container{
 width: 80%
-font-size: 16px;
+font-size: 18px;
 margin: 100px 5% 100px 5%;
 text-decoration: none;
 }
@@ -617,7 +617,7 @@ display: inline-block;
   text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .articles__text p {
@@ -653,7 +653,7 @@ display: inline-block;
 
 .contact {
   margin: 0px 135px 0px 135px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   max-width: 50%;
   padding: 0px;
@@ -686,7 +686,7 @@ display: inline-block;
 
 
 #outter_charlie {
-font-size: 16px;
+font-size: 18px;
 line-height: 38px;
 padding: 200px 5% 0px 5%;
 max-width: 60%;
@@ -704,7 +704,7 @@ max-width: 60%;
 #outter_charlie a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   border-bottom: 1px;
   border-color: black;
 }
@@ -725,14 +725,14 @@ color: #5a5c63;
 }
 
 #outter_delta{
-font-size: 16px;
+font-size: 18px;
 padding: 200px 5% 0px 5%;
 }
 
 #outter_delta p {
   padding-bottom: 20px;
   margin: 0px;
-  line-height: 26px;
+  line-height: 32px;
 }
 
 #outter_delta h1 {
@@ -749,7 +749,7 @@ padding: 200px 5% 0px 5%;
 }
 
 #outter_delta h5 {
-  font-size: 16px;
+  font-size: 18px;
   color: #737373;
   font-weight: normal;
 }
@@ -814,15 +814,15 @@ padding-bottom: 100px;
 }
 
 .article p {
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 32px;
   margin: 0px 25% 40px 25%;
   max-width: 770px;
 }
 
 .image_tag {
   padding: 0px 0px 0px 5%;
-  font-size: 16px;
+  font-size: 18px;
   color: #737373;
 }
 
@@ -847,7 +847,7 @@ padding-bottom: 100px;
 }
 
 .cards_beta p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   margin: 10px 0px 30px 0px;
   width: 80%;
@@ -977,7 +977,7 @@ padding-bottom: 100px;
   font-weight: normal;
   margin: 0px;
     padding: 30px 0px 20px 0px;
-  font-size: 16px;
+  font-size: 18px;
   color: #b1b1b1;
   font-weight: ;
 }
@@ -986,7 +986,7 @@ padding-bottom: 100px;
   margin: 0px 0px 40px 0px;
   font-weight: normal;
   padding: 0px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .column_link {
@@ -995,7 +995,7 @@ padding-bottom: 100px;
   margin: 0px;
   font-weight: normal;
   padding: 0px 0px 2px 0px;
-  font-size: 16px;
+  font-size: 18px;
   border-bottom: 1.5px solid black;
 }
 
@@ -1084,7 +1084,7 @@ padding-bottom: 100px;
 @media only screen and (max-width: 1100px) {
 
   #outter_charlie {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   padding: 200px 5% 0px 5%;
   margin-bottom: 0px;
@@ -1092,7 +1092,7 @@ padding-bottom: 100px;
   }
 
   #div6, #div8 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 50px;
@@ -1100,7 +1100,7 @@ padding-bottom: 100px;
   }
 
   #div9 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 200px;
@@ -1127,20 +1127,20 @@ padding-bottom: 100px;
   }
 
   #outter_charlie {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 38px;
 	padding: 200px 5% 0px 5%;
   max-width: 100%;
 	}
 
   #outter_delta {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   padding: 200px 5% 0px 5%;
   }
 
 	#div6, #div8 {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 38px;
 	padding: 0px 0px 0px 0px;
 	margin-bottom: 50px;
@@ -1148,7 +1148,7 @@ padding-bottom: 100px;
 	}
 
   #div9 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   padding: 0px 0px 0px 0px;
   margin-bottom: 50px;
@@ -1174,7 +1174,7 @@ padding-bottom: 100px;
   }
 
   .article p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 38px;
   margin: 0px 5% 40px 5%;
   max-width: 770px;
@@ -1194,7 +1194,7 @@ padding-bottom: 100px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
