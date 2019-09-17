@@ -7,6 +7,15 @@ $('body').fadeIn(1000);
 });
 
 
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
 
 
 $(document).ready(function() {
@@ -32,3 +41,5 @@ $(document).ready(function() {
     });
     
 });
+
+

@@ -20,7 +20,7 @@
 
   <div class="content_container">
 
-    <nav class="site-nav">
+  <nav class="site-nav">
   		<ul class="site-title"><!-- float this left -->
     		<li><a href="index.html">YAKKIOS</a>
         </li>
@@ -31,7 +31,22 @@
          <li><a href="articles.html">Thoughts</a></li>
          <li><a href="contact.html">Contact</a></li>
   		</ul>
-     </nav>
+
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="thoughts.html">Thoughts</a>
+            <a href="contact.hrml">Contact</a>
+      </div>
+      </div>
+
+      <span class="hamburger" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+  </nav>
 
     <div class="hero">
       <a href="hopper.html">
