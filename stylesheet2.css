@@ -150,7 +150,7 @@ h1 {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 50px;
   right: 5%;
   font-size: 30px;
   line-height: 16px;
@@ -1328,6 +1328,11 @@ padding-bottom: 100px;
   .site-nav {
   margin: 20px 5% 0px 5%;   /* Removes default margins from h1 element */
 }
+
+  .overlay .closebtn {
+      top: 20px;
+  }
+
 }
 
 #padding_block_200 {
