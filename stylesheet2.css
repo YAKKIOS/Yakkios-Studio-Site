@@ -215,7 +215,7 @@ h1 {
   color: #737373;
 }
 
-.text a:hover {
+.text h2 a:hover {
     text-decoration: underline;
 }
 
@@ -423,6 +423,11 @@ footer {
     line-height: 48px;
 }
 
+.Footer_CTA h1 a:hover {
+    text-decoration: underline;
+}
+
+
 footer a {
     text-decoration: none;
     color: #737373;
@@ -440,7 +445,7 @@ footer li a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  color: #737373;
   -webkit-transition: color 0.3s ease-out;
  -moz-transition: color 0.3s ease-out;
  -o-transition: color 0.3s ease-out;
