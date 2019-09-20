@@ -5,6 +5,7 @@
   font-family: 'hkgrotesk-regular', sans-serif;
   float: none;
   font-weight: normal;
+  animation: fadein 1s;
 }
 
 @font-face {
