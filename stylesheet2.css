@@ -5,6 +5,7 @@
   font-family: 'hkgrotesk-regular', sans-serif;
   float: none;
   font-weight: normal;
+  animation: fadein 2s;
 }
 
 @font-face {
@@ -25,7 +26,7 @@
   font-weight: lighter;
 }
 
-@keyframes fadein {
+@-webkit-keyframes fadein {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
@@ -215,7 +216,7 @@ h1 {
   color: #737373;
 }
 
-.text a:hover {
+.text h2 a:hover {
     text-decoration: underline;
 }
 
@@ -423,6 +424,11 @@ footer {
     line-height: 48px;
 }
 
+.Footer_CTA h1 a:hover {
+    text-decoration: underline;
+}
+
+
 footer a {
     text-decoration: none;
     color: #737373;
@@ -440,7 +446,7 @@ footer li a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  color: #737373;
   -webkit-transition: color 0.3s ease-out;
  -moz-transition: color 0.3s ease-out;
  -o-transition: color 0.3s ease-out;
