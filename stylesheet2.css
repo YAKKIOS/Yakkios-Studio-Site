@@ -16,14 +16,14 @@
 
 @font-face {
   font-family: HKGrotesk;
-  src: url(hkgrotesk-regular.woff;)
+  src: url(HKGrotesk-Regular;)
   font-weight: normal;
 }
 
 @font-face {
   font-family: HKGrotesk;
-  src: url(hkgrotesk-light.woff;)
-  font-weight: lighter;
+  src: url(HKGrotesk-Medium;)
+  font-weight: bold;
 }
 
 @-webkit-keyframes fadein {
