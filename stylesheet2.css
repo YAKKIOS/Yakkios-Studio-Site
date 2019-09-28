@@ -209,7 +209,7 @@ h1 {
 }
 
 .text a {
-  margin-right: 60px;
+  margin-right: 0px;
   text-decoration: none;
   padding-bottom: 2px;
   /*border-bottom: 1px solid black;*/
